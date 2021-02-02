@@ -20,6 +20,8 @@ $ roslaunch ur5_gazebo ur5_6_cubes.launch
 
 Se deberá abrir el ambiente Gazebo con el mundo creado asi:
 
+![Posición final](https://github.com/Will0204/RoboticaUdeA/blob/main/ur5/ur5_images/PosicionIncial.PNG)
+
 Para llevar el robot a la posición inicial se debe dar click en el botón **play** en la parte inferior izquierda.
 
 Finalmente, en una consola nueva, lance el ejecutable .py que moverá el robot según la tarea propuesta; el comando es:
@@ -28,3 +30,5 @@ Finalmente, en una consola nueva, lance el ejecutable .py que moverá el robot s
 $ rosrun ur5_gazebo send_trajectory.py
 ```
 Luego de ejecutarse completamente la secuencia el resultado debe verse así:
+
+![Posición final](https://github.com/Will0204/RoboticaUdeA/blob/main/ur5/ur5_images/Posici%C3%B3nFinal.PNG)
